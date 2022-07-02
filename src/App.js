@@ -22,7 +22,7 @@ function App() {
 
         <Spacer></Spacer>
         
-        <Text fontWeight={400} _hover={{ cursor: 'pointer', textDecor: 'underline' }} p={2} onClick={() => window.open("https://drive.google.com/file/d/1BPCFwyZaCFtPWx94F1CeWndBAO_SCeSA/view?usp=sharing")}>
+        <Text fontWeight={400} _hover={{ cursor: 'pointer', textDecor: 'underline' }} p={2} onClick={() => window.open("https://drive.google.com/file/d/1EgZ2f11CthlgsNYy9dITHdRoQoPkuxIk/view?usp=sharing")}>
           Resume 
         </Text>
         

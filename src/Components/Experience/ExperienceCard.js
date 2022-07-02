@@ -55,7 +55,7 @@ import {
           <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
             <Stack direction={'column'} spacing={0} fontSize={'sm'}>
               <Text fontWeight={600}>{props.location ? props.location : "Test Job Location"}</Text>
-              <Text color={'gray.500'}>{props.time ? props.time : "Sep. 2018 - April. 2023"}</Text>
+              <Text display={props.mobile === false ? 'none': 'inherit'} color={'gray.500'}>{props.time ? props.time : "Sep. 2018 - April. 2023"}</Text>
             </Stack>
           </Stack>
         </Box>
