@@ -6,7 +6,7 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider>
-      <ColorModeScript initialColorMode="light"></ColorModeScript>
+      <ColorModeScript initialColorMode="dark"></ColorModeScript>
       <App />
     </ChakraProvider>
   </React.StrictMode>,
