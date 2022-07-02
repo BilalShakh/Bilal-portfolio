@@ -1,0 +1,56 @@
+{
+    "JobData": [
+        {
+            "Title" : "Developer Intern",
+            "Company": "RBC",
+            "Location": "Toronto, ON, CA",
+            "Time": "May 2022 – Aug 2022",
+            "Points": [
+                "Developed efficient solutions in ServiceNow for various applications in RBC using Java Script and Angular.",
+                "Directly impacted business operations to cause a time saving of 53 Hours a month.",
+                "Integrated a significant number of different applications in to ServiceNow with external development teams such as a Splunk Integration."
+            ]
+        },
+        {
+            "Title" : "Workshops and Talks Lead",
+            "Company": "Google Developer Student Club McMaster University",
+            "Location": "Hamilton, ON, CA",
+            "Time": "Sep 2021 – Present",
+            "Points": [
+                "Led a team of 20 members to organize workshops and talks for the Google DSC and McMaster Community.",
+                "Organized content and presented in an AR Development workshop for 1000+ viewers and contributed greatly towards making McMaster’s GDSC chapter one of North America’s most active chapters.",
+                "Assisted in presenting, delegating tasks and curating content for workshops such as Intro to Github, Basics of Unity, and a ML talk with Tanmay Bakshi, that had over 100+ attendees."
+            ]
+        },
+        {
+            "Title" : "Web Developer Intern",
+            "Company": "Loadlink Technologies",
+            "Location": "Mississauga, ON, CA",
+            "Time": "May 2021 – Aug 2021",
+            "Points": [
+                "Recreated Angular front-end for the flagship load matching product to facilitate company re-branding.",
+                "Added notifications to the front end of the flagship load matching product with REST APIs to an external trucking equipment marketplace.",
+                "Designed and developed a program in C# with SQL to improve processing speeds for customer data by 90%."
+            ]
+        },
+        {
+            "Title" : "Teaching Assistant",
+            "Company": "McMaster University",
+            "Location": "Hamilton, ON, CA",
+            "Time": "Sep 2020 – Apr 2021; Sep 2021 – Dec 2021",
+            "Points": [
+                "Instructed 50+ students to design and develop scripts in Python for solving various Engineering problems."
+            ]
+        },
+        {
+            "Title" : "AR Developer Intern",
+            "Company": "PULSE Lifesavings",
+            "Location": "Hamilton, ON, CA",
+            "Time": "May 2020 – Aug 2020",
+            "Points": [
+                "Developed and documented the first iteration of an AR CPR Training program with C# and Unity.",
+                "Created an android app for measuring user posture for CPR with Java, to improve posture detection by 60%."
+            ]
+        }
+    ]
+}
