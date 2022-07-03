@@ -1,7 +1,8 @@
 import { IconButton } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
-import { Flex, VStack, Heading, Spacer, Text } from "@chakra-ui/react";
+import { Flex, VStack, Heading, Spacer, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import { FaSun, FaMoon, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiTwotoneMail } from 'react-icons/ai';
 import Header from "./Components/Header/Header";
 import Profile from "./Components/Profile/Profile";
@@ -21,15 +22,35 @@ function App() {
           ml="8" size="md" fontWeight='semibold' color="cyan.400">Bilal_S.</Heading>
 
         <Spacer></Spacer>
+
+        <Menu>
+          <MenuButton
+            as={IconButton}
+            aria-label='Options'
+            icon={<GiHamburgerMenu />}
+            variant='outline'
+            display={{ sm: 'inherit', md: 'none' }}
+          />
+          <MenuList>
+            <MenuItem icon={<AiTwotoneMail />} onClick={() => window.open("mailto:shaikb2@mcmaster.ca")}>
+              Email
+            </MenuItem>
+            <MenuItem icon={<FaLinkedin />} onClick={() => window.open("https://www.linkedin.com/in/bilal-shakh/")}>
+              LinkedIn
+            </MenuItem>
+            <MenuItem icon={<FaGithub />} onClick={() => window.open("https://github.com/BilalShakh")}>
+              GitHub
+            </MenuItem>
+            <MenuItem icon={isDark ? <FaSun /> : <FaMoon />} onClick={toggleColorMode}>
+              {isDark ? "Change to Light Mode": "Change to Dark Mode"}
+            </MenuItem>
+          </MenuList>
+        </Menu>
         
-        <Text fontWeight={400} _hover={{ cursor: 'pointer', textDecor: 'underline' }} p={2} onClick={() => window.open("https://drive.google.com/file/d/1EgZ2f11CthlgsNYy9dITHdRoQoPkuxIk/view?usp=sharing")}>
-          Resume 
-        </Text>
-        
-        <IconButton ml={2} icon={<AiTwotoneMail />} isRound='true' onClick={() => window.open("mailto:shaikb2@mcmaster.ca")}></IconButton>
-        <IconButton ml={2} icon={<FaLinkedin />} isRound='true' onClick={() => window.open("https://www.linkedin.com/in/bilal-shakh/")}></IconButton>
-        <IconButton ml={2} icon={<FaGithub />} isRound='true' onClick={() => window.open("https://github.com/BilalShakh")}></IconButton>
-        <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
+        <IconButton display={{ sm: 'none', md: 'inherit' }} ml={2} icon={<AiTwotoneMail />} isRound='true' onClick={() => window.open("mailto:shaikb2@mcmaster.ca")}></IconButton>
+        <IconButton display={{ sm: 'none', md: 'inherit' }} ml={2} icon={<FaLinkedin />} isRound='true' onClick={() => window.open("https://www.linkedin.com/in/bilal-shakh/")}></IconButton>
+        <IconButton display={{ sm: 'none', md: 'inherit' }} ml={2} icon={<FaGithub />} isRound='true' onClick={() => window.open("https://github.com/BilalShakh")}></IconButton>
+        <IconButton display={{ sm: 'none', md: 'inherit' }} ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
       </Flex>
       <Header></Header>
       <Profile></Profile>

@@ -24,7 +24,10 @@ function Header() {
                     </Text>
                     <Button mt={8} colorScheme="blue" onClick={() =>
                         window.open("https://www.linkedin.com/in/bilal-shakh/")
-                    }>Hire Me</Button>
+                    }>Contact Me</Button>
+                    <Button ml={5} mt={8} colorScheme="purple" onClick={() =>
+                        window.open("https://drive.google.com/file/d/1EgZ2f11CthlgsNYy9dITHdRoQoPkuxIk/view?usp=sharing")
+                    }>Resume</Button>
 
                 </Box>
                 <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
