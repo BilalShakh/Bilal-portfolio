@@ -44,15 +44,15 @@ function Profile() {
     return (
         <Flex direction={isNotSmallerScreen ? "row" : "column"} w="100%"
             maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}>
-            <Box alignSelf="center" px="32" py="16">
+            <Box alignSelf="center" px={isNotSmallerScreen ? "32": "3"} py="16">
                 <Heading fontWeight="extrabold" color={numberColor} size="4xl">
                     {numTime}+
                 </Heading>
                 <Text fontSize="2xl" color="gray.400">{unitTime} of Experience</Text>
             </Box>
-            <Box alignSelf="center" px="32" py="16">
+            <Box alignSelf="center" px={isNotSmallerScreen ? "32": "3"} py="16">
                 <Text fontWeight="bold" fontSize="2xl">Software Engineer and Developer, specialized in Full Stack Development.</Text>
-                <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
+                <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} alignItems={isNotSmallerScreen ? "inherit": "center"} >
                     <Flex id='A' onClick={handleCardClick} rounded="xl" direction="column" mt={4} bg={bgColorAngular} h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "blue.400", cursor: 'pointer'}}>
                         <Box pl="4">
                             <FaAngular color="black" size={80} />

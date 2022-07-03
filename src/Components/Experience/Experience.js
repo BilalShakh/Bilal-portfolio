@@ -13,7 +13,7 @@ function Experience() {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
     return (
-        <Flex direction="Row" justifyContent="start" width="60%">
+        <Flex direction="Row" justifyContent="start" width={isNotSmallerScreen ? "60%": "100%"}>
             <VStack>
                 <Flex direction="Row" justifyContent="start" width="100%" mb={5}>
                     <Heading mr={5}>Experience</Heading>

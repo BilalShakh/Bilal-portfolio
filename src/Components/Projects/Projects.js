@@ -10,7 +10,7 @@ function Projects() {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
     return (
-        <Flex direction="Row" justifyContent="start" width="60%" mt={10}>
+        <Flex direction="Row" justifyContent="start" width={isNotSmallerScreen ? "60%": "100%"} mt={10}>
             <VStack>
                 <Flex direction="Row" justifyContent="start" width="100%" mt={7} mb={5}>
                     <Heading mr={5}>Projects</Heading>
