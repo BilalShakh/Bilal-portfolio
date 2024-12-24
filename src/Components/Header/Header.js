@@ -19,14 +19,14 @@ function Header() {
                     <Text fontSize="5xl" fontWeight="semibold">Hello, I am</Text>
                     <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, purple.600, purple.600)" bgClip='text' >Bilal Shaikh</Text>
                     <Text color={isDark ? "gray.200" : "gray.500"} maxW="800px">
-                        Developer with a passion for Web Development with a interest towards Full Stack and Front-end Development. Experienced with Angular, React, ServiceNow, SQL 
-                        and much more.
+                        Software Engineer with a passion for Web Development and a strong interest in Full Stack and Front-end Development. 
+                        Experienced with React, SQL, C#, and much more.
                     </Text>
                     <Button mt={8} colorScheme="blue" onClick={() =>
                         window.open("https://www.linkedin.com/in/bilal-shakh/")
                     }>Contact Me</Button>
                     <Button ml={5} mt={8} colorScheme="purple" onClick={() =>
-                        window.open("https://drive.google.com/file/d/1EgZ2f11CthlgsNYy9dITHdRoQoPkuxIk/view?usp=sharing")
+                        window.open("https://drive.google.com/file/d/14TdNtFJ5kc7pvP463f11WTGqY9kreZBy/view?usp=drive_link")
                     }>Resume</Button>
 
                 </Box>

@@ -53,14 +53,15 @@ import {
               Software Engineering & Management (B.Eng.Mgmt)
             </Heading>
             <Text color={isDark ? 'gray.400': 'gray.500'}>
-              A degree with an emphasis on learning everything needed to be a Software Engineer for four years, along with some Commerce, 
-              Finance and related courses for a year, which is equivalent to a year of McMaster's MBA program.
+              A degree focused on developing core skills in software engineering over four years, covering areas such as programming, algorithms, 
+              software design, testing, databases, and project management.
             </Text>
           </Stack>
           <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
             <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-              <Text fontWeight={600}>In Progress</Text>
-              <Text color={'gray.500'}>Sep. 2018 - April. 2023</Text>
+              <Text fontWeight={600}>Graduated</Text>
+              <Text color={'gray.500'}>April. 2023</Text>
+              <Text color={'gray.500'}>Major GPA: 3.71</Text>
             </Stack>
           </Stack>
         </Box>

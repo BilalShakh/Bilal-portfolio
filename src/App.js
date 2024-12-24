@@ -32,7 +32,7 @@ function App() {
             display={{ base: 'inherit', sm: 'inherit', md: 'none' }}
           />
           <MenuList>
-            <MenuItem icon={<AiTwotoneMail />} onClick={() => window.open("mailto:shaikb2@mcmaster.ca")}>
+            <MenuItem icon={<AiTwotoneMail />} onClick={() => window.open("mailto:bilalzaki92@gmail.com")}>
               Email
             </MenuItem>
             <MenuItem icon={<FaLinkedin />} onClick={() => window.open("https://www.linkedin.com/in/bilal-shakh/")}>

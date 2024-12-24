@@ -3,7 +3,7 @@
         {
             "Type" : "Personal Project",
             "Name" : "Alpaca Trading Bot",
-            "Image" : "https://www.quantower.com/media/1359/top-18.png",
+            "Image" : "https://img.freepik.com/free-vector/hand-drawn-ai-investing-illustration_23-2151106584.jpg?t=st=1735006268~exp=1735009868~hmac=e98c77787abd63b512880e593d6ca87bb17696b15685af638f24e97ffcf554d9&w=740",
             "Git" : "https://github.com/BilalShakh/Alpaca-Trading-Bot",
             "Description": "Algorithmic trading bot in Node.js made to trade on the live market using data from Alpaca and IEX. Made with a lagging indicator and momentum based strategy.",
             "Status" : "Complete",
@@ -19,18 +19,9 @@
             "Time" : "Dec 2021"
         },
         {
-            "Type" : "Personal Project",
-            "Name" : "AzeemEdu",
-            "Image" : "https://azeemedu.ca/static/media/img-1-1200x1000.4ff7f946.jpg",
-            "Git" : "https://azeemedu.ca",
-            "Description": "A web application made to serve as a marketing website for a small tutoring business. Made with React and was deployed on Google's Firebase",
-            "Status" : "Complete",
-            "Time" : "Mar 2020"
-        },
-        {
             "Type" : "Group/Hackathon Project",
             "Name" : "InterVR",
-            "Image" : "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/921/919/datas/gallery.jpg",
+            "Image" : "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/000/921/920/datas/gallery.jpg",
             "Git" : "https://github.com/BilalShakh/InterVR",
             "Description": "An Unity based application designed to simulate an interviewing situation with the help of Oculus Rift. The application checks what percent of the user's answer is filled with filler words and displays the statistics at the very end.",
             "Status" : "Complete",
